@@ -22,4 +22,3 @@ finally:
     if 'connection' in locals() and connection.is_connected():
         cursor.close()
         connection.close()
-
